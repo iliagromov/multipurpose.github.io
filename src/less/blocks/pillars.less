@@ -1,0 +1,32 @@
+.pillars{
+    padding: 50px 0;
+    &-items{
+        .row-flex();
+        padding-top: 30px;
+        &__item{
+            .col();
+            .size(4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .page__img{
+                width: 280px;
+                height: 280px;
+                border-radius: 100%;
+                display: flex;
+                // align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                background-color: @color_gray-f5;
+            }
+            .page__text{
+                font-size: 18px;
+                letter-spacing: 1px;
+                line-height: 26px;
+                color:@color_gray-4;
+                font-family: '@{SourceSansPro}-Regular';
+            }
+        }
+    }
+}

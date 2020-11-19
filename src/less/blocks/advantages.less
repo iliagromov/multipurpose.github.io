@@ -1,0 +1,39 @@
+.advantages{
+    padding: 50px 0;
+    .page__title-h2{
+        color: @color_gray-2;
+    }
+    .page__text{
+        padding-top: 10px;
+    }
+    &-items{
+        .row-flex();
+        padding: 40px 0;
+        &__item{
+            .col();
+            .size(3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .page__icon{
+                &_layers{
+                    .sprite(@icon-layers);
+                }
+                &_analytics{
+                    .sprite(@icon-analytics);
+                }
+                &_branding{
+                    .sprite(@icon-branding);
+                }
+                &_marketing{
+                    .sprite(@icon-marketing);
+                }
+            }
+            .page__text{
+                padding-top: 0;
+                color: @color_gray-4;
+            }
+        }
+    }
+}

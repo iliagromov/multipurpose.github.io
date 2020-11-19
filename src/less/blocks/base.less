@@ -1,0 +1,44 @@
+@import '../fonts/fonts.less';
+.reset();
+
+.wrapper{
+    .wrapper();
+}
+
+.scrollbar(@color_scrollbar-track, @color_scrollbar-thumb);
+
+
+@font-face {
+  .font(@font; @fontRegular);
+}
+@font-face {
+  .font(@font; @fontSemibold);
+}
+@font-face {
+  .font(@SourceSansPro; '@{SourceSansPro}-Bold');
+}
+@font-face {
+  .font(@SourceSansPro; '@{SourceSansPro}-Regular');
+}
+@font-face {
+  .font(@Lato; '@{Lato}-Bold');
+}
+
+body {
+  font-family: @fontRegular;
+}
+a, button{
+  cursor: pointer;
+  &:focus{
+      outline: none;
+  }
+}
+input{
+  cursor: text;
+  &:focus{
+      outline: none;
+  }
+}
+a{
+  text-decoration: none;
+}

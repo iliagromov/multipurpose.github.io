@@ -1,0 +1,47 @@
+.banner{
+    position: relative;
+    min-height: 612px;
+    background-image: url('../assets/img/img-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    color:@color_white;
+    &-block{
+        display: flex;
+        min-height: inherit;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+      
+      
+        .page__title_sub {
+            padding-bottom: 10px;
+        }
+        .page__text{
+            color: @color_white;
+            
+            .size(8);
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+        .page__btn{
+            .col();
+            .size(2.5);
+            display: inline-block;
+
+        }
+        &__actions{
+            .row-flex();
+            justify-content: center;
+            
+        }
+    }
+    &_opacity-blue{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 170, 247, 0.45);
+
+    }
+}

@@ -1,0 +1,296 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@icon-analytics-name: 'icon-analytics';
+@icon-analytics-x: 0px;
+@icon-analytics-y: 133px;
+@icon-analytics-offset-x: 0px;
+@icon-analytics-offset-y: -133px;
+@icon-analytics-width: 63px;
+@icon-analytics-height: 51px;
+@icon-analytics-total-width: 233px;
+@icon-analytics-total-height: 184px;
+@icon-analytics-image: '../assets/icons/sprite.png';
+@icon-analytics: 0px 133px 0px -133px 63px 51px 233px 184px '../assets/icons/sprite.png' 'icon-analytics';
+@icon-branding-name: 'icon-branding';
+@icon-branding-x: 149px;
+@icon-branding-y: 69px;
+@icon-branding-offset-x: -149px;
+@icon-branding-offset-y: -69px;
+@icon-branding-width: 49px;
+@icon-branding-height: 53px;
+@icon-branding-total-width: 233px;
+@icon-branding-total-height: 184px;
+@icon-branding-image: '../assets/icons/sprite.png';
+@icon-branding: 149px 69px -149px -69px 49px 53px 233px 184px '../assets/icons/sprite.png' 'icon-branding';
+@icon-fb-black-name: 'icon-fb-black';
+@icon-fb-black-x: 186px;
+@icon-fb-black-y: 161px;
+@icon-fb-black-offset-x: -186px;
+@icon-fb-black-offset-y: -161px;
+@icon-fb-black-width: 13px;
+@icon-fb-black-height: 18px;
+@icon-fb-black-total-width: 233px;
+@icon-fb-black-total-height: 184px;
+@icon-fb-black-image: '../assets/icons/sprite.png';
+@icon-fb-black: 186px 161px -186px -161px 13px 18px 233px 184px '../assets/icons/sprite.png' 'icon-fb-black';
+@icon-fb-white-name: 'icon-fb-white';
+@icon-fb-white-x: 218px;
+@icon-fb-white-y: 100px;
+@icon-fb-white-offset-x: -218px;
+@icon-fb-white-offset-y: -100px;
+@icon-fb-white-width: 10px;
+@icon-fb-white-height: 15px;
+@icon-fb-white-total-width: 233px;
+@icon-fb-white-total-height: 184px;
+@icon-fb-white-image: '../assets/icons/sprite.png';
+@icon-fb-white: 218px 100px -218px -100px 10px 15px 233px 184px '../assets/icons/sprite.png' 'icon-fb-white';
+@icon-google-black-name: 'icon-google-black';
+@icon-google-black-x: 130px;
+@icon-google-black-y: 133px;
+@icon-google-black-offset-x: -130px;
+@icon-google-black-offset-y: -133px;
+@icon-google-black-width: 27px;
+@icon-google-black-height: 18px;
+@icon-google-black-total-width: 233px;
+@icon-google-black-total-height: 184px;
+@icon-google-black-image: '../assets/icons/sprite.png';
+@icon-google-black: 130px 133px -130px -133px 27px 18px 233px 184px '../assets/icons/sprite.png' 'icon-google-black';
+@icon-home-name: 'icon-home';
+@icon-home-x: 0px;
+@icon-home-y: 64px;
+@icon-home-offset-x: 0px;
+@icon-home-offset-y: -64px;
+@icon-home-width: 59px;
+@icon-home-height: 59px;
+@icon-home-total-width: 233px;
+@icon-home-total-height: 184px;
+@icon-home-image: '../assets/icons/sprite.png';
+@icon-home: 0px 64px 0px -64px 59px 59px 233px 184px '../assets/icons/sprite.png' 'icon-home';
+@icon-in-black-name: 'icon-in-black';
+@icon-in-black-x: 130px;
+@icon-in-black-y: 161px;
+@icon-in-black-offset-x: -130px;
+@icon-in-black-offset-y: -161px;
+@icon-in-black-width: 18px;
+@icon-in-black-height: 18px;
+@icon-in-black-total-width: 233px;
+@icon-in-black-total-height: 184px;
+@icon-in-black-image: '../assets/icons/sprite.png';
+@icon-in-black: 130px 161px -130px -161px 18px 18px 233px 184px '../assets/icons/sprite.png' 'icon-in-black';
+@icon-in-white-name: 'icon-in-white';
+@icon-in-white-x: 218px;
+@icon-in-white-y: 0px;
+@icon-in-white-offset-x: -218px;
+@icon-in-white-offset-y: 0px;
+@icon-in-white-width: 15px;
+@icon-in-white-height: 15px;
+@icon-in-white-total-width: 233px;
+@icon-in-white-total-height: 184px;
+@icon-in-white-image: '../assets/icons/sprite.png';
+@icon-in-white: 218px 0px -218px 0px 15px 15px 233px 184px '../assets/icons/sprite.png' 'icon-in-white';
+@icon-inst-white-name: 'icon-inst-white';
+@icon-inst-white-x: 218px;
+@icon-inst-white-y: 25px;
+@icon-inst-white-offset-x: -218px;
+@icon-inst-white-offset-y: -25px;
+@icon-inst-white-width: 15px;
+@icon-inst-white-height: 15px;
+@icon-inst-white-total-width: 233px;
+@icon-inst-white-total-height: 184px;
+@icon-inst-white-image: '../assets/icons/sprite.png';
+@icon-inst-white: 218px 25px -218px -25px 15px 15px 233px 184px '../assets/icons/sprite.png' 'icon-inst-white';
+@icon-layers-name: 'icon-layers';
+@icon-layers-x: 73px;
+@icon-layers-y: 133px;
+@icon-layers-offset-x: -73px;
+@icon-layers-offset-y: -133px;
+@icon-layers-width: 47px;
+@icon-layers-height: 49px;
+@icon-layers-total-width: 233px;
+@icon-layers-total-height: 184px;
+@icon-layers-image: '../assets/icons/sprite.png';
+@icon-layers: 73px 133px -73px -133px 47px 49px 233px 184px '../assets/icons/sprite.png' 'icon-layers';
+@icon-lightning-name: 'icon-lightning';
+@icon-lightning-x: 218px;
+@icon-lightning-y: 125px;
+@icon-lightning-offset-x: -218px;
+@icon-lightning-offset-y: -125px;
+@icon-lightning-width: 10px;
+@icon-lightning-height: 15px;
+@icon-lightning-total-width: 233px;
+@icon-lightning-total-height: 184px;
+@icon-lightning-image: '../assets/icons/sprite.png';
+@icon-lightning: 218px 125px -218px -125px 10px 15px 233px 184px '../assets/icons/sprite.png' 'icon-lightning';
+@icon-logo-name: 'icon-logo';
+@icon-logo-x: 0px;
+@icon-logo-y: 0px;
+@icon-logo-offset-x: 0px;
+@icon-logo-offset-y: 0px;
+@icon-logo-width: 70px;
+@icon-logo-height: 54px;
+@icon-logo-total-width: 233px;
+@icon-logo-total-height: 184px;
+@icon-logo-image: '../assets/icons/sprite.png';
+@icon-logo: 0px 0px 0px 0px 70px 54px 233px 184px '../assets/icons/sprite.png' 'icon-logo';
+@icon-mail-name: 'icon-mail';
+@icon-mail-x: 80px;
+@icon-mail-y: 0px;
+@icon-mail-offset-x: -80px;
+@icon-mail-offset-y: 0px;
+@icon-mail-width: 59px;
+@icon-mail-height: 59px;
+@icon-mail-total-width: 233px;
+@icon-mail-total-height: 184px;
+@icon-mail-image: '../assets/icons/sprite.png';
+@icon-mail: 80px 0px -80px 0px 59px 59px 233px 184px '../assets/icons/sprite.png' 'icon-mail';
+@icon-marketing-name: 'icon-marketing';
+@icon-marketing-x: 80px;
+@icon-marketing-y: 69px;
+@icon-marketing-offset-x: -80px;
+@icon-marketing-offset-y: -69px;
+@icon-marketing-width: 49px;
+@icon-marketing-height: 52px;
+@icon-marketing-total-width: 233px;
+@icon-marketing-total-height: 184px;
+@icon-marketing-image: '../assets/icons/sprite.png';
+@icon-marketing: 80px 69px -80px -69px 49px 52px 233px 184px '../assets/icons/sprite.png' 'icon-marketing';
+@icon-phone-name: 'icon-phone';
+@icon-phone-x: 149px;
+@icon-phone-y: 0px;
+@icon-phone-offset-x: -149px;
+@icon-phone-offset-y: 0px;
+@icon-phone-width: 59px;
+@icon-phone-height: 59px;
+@icon-phone-total-width: 233px;
+@icon-phone-total-height: 184px;
+@icon-phone-image: '../assets/icons/sprite.png';
+@icon-phone: 149px 0px -149px 0px 59px 59px 233px 184px '../assets/icons/sprite.png' 'icon-phone';
+@icon-pintrest-black-name: 'icon-pintrest-black';
+@icon-pintrest-black-x: 167px;
+@icon-pintrest-black-y: 133px;
+@icon-pintrest-black-offset-x: -167px;
+@icon-pintrest-black-offset-y: -133px;
+@icon-pintrest-black-width: 19px;
+@icon-pintrest-black-height: 18px;
+@icon-pintrest-black-total-width: 233px;
+@icon-pintrest-black-total-height: 184px;
+@icon-pintrest-black-image: '../assets/icons/sprite.png';
+@icon-pintrest-black: 167px 133px -167px -133px 19px 18px 233px 184px '../assets/icons/sprite.png' 'icon-pintrest-black';
+@icon-tw-black-name: 'icon-tw-black';
+@icon-tw-black-x: 158px;
+@icon-tw-black-y: 161px;
+@icon-tw-black-offset-x: -158px;
+@icon-tw-black-offset-y: -161px;
+@icon-tw-black-width: 18px;
+@icon-tw-black-height: 18px;
+@icon-tw-black-total-width: 233px;
+@icon-tw-black-total-height: 184px;
+@icon-tw-black-image: '../assets/icons/sprite.png';
+@icon-tw-black: 158px 161px -158px -161px 18px 18px 233px 184px '../assets/icons/sprite.png' 'icon-tw-black';
+@icon-tw-white-name: 'icon-tw-white';
+@icon-tw-white-x: 218px;
+@icon-tw-white-y: 50px;
+@icon-tw-white-offset-x: -218px;
+@icon-tw-white-offset-y: -50px;
+@icon-tw-white-width: 15px;
+@icon-tw-white-height: 15px;
+@icon-tw-white-total-width: 233px;
+@icon-tw-white-total-height: 184px;
+@icon-tw-white-image: '../assets/icons/sprite.png';
+@icon-tw-white: 218px 50px -218px -50px 15px 15px 233px 184px '../assets/icons/sprite.png' 'icon-tw-white';
+@icon-vimeo-white-name: 'icon-vimeo-white';
+@icon-vimeo-white-x: 218px;
+@icon-vimeo-white-y: 75px;
+@icon-vimeo-white-offset-x: -218px;
+@icon-vimeo-white-offset-y: -75px;
+@icon-vimeo-white-width: 15px;
+@icon-vimeo-white-height: 15px;
+@icon-vimeo-white-total-width: 233px;
+@icon-vimeo-white-total-height: 184px;
+@icon-vimeo-white-image: '../assets/icons/sprite.png';
+@icon-vimeo-white: 218px 75px -218px -75px 15px 15px 233px 184px '../assets/icons/sprite.png' 'icon-vimeo-white';
+@spritesheet-width: 233px;
+@spritesheet-height: 184px;
+@spritesheet-image: '../assets/icons/sprite.png';
+@spritesheet-sprites: @icon-analytics @icon-branding @icon-fb-black @icon-fb-white @icon-google-black @icon-home @icon-in-black @icon-in-white @icon-inst-white @icon-layers @icon-lightning @icon-logo @icon-mail @icon-marketing @icon-phone @icon-pintrest-black @icon-tw-black @icon-tw-white @icon-vimeo-white;
+@spritesheet: 233px 184px '../assets/icons/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  background-image: e(%('url(%a)', e(@sprite-image)));
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
