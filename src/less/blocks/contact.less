@@ -6,6 +6,7 @@
         &__form{
             .col();
             .size(6);
+            .size-sm(12);
             .page__form{
                 
                 margin: 0 auto;
@@ -32,6 +33,7 @@
                 .page__btn{
                     .col();
                     .size(3);
+                    .size-sm(12);
                     margin: 0 auto;
                 }
             }
@@ -39,11 +41,17 @@
         &__info{
             .col();
             .size(5);
+            .size-sm(12);
             .shift-left(1);
+            .shift-sm-left(0);
             padding-top: 30px;
             &-container{
                 display: flex;
                 padding-bottom: 20px;
+                .sm-block({
+                    justify-content: center;
+                
+                });
                 .page__icon{
                     &_phone{
                         .sprite(@icon-phone);

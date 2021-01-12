@@ -11,8 +11,8 @@ const gcmq = require('gulp-group-css-media-queries');
 const less = require('gulp-less');
 const smartgrid = require('smart-grid');
 const pug = require('gulp-pug');
-const imagemin = require('gulp-imagemin');
-const pngquant = require('imagemin-pngquant');
+// const imagemin = require('gulp-imagemin');
+// const pngquant = require('imagemin-pngquant');
 const notify = require('gulp-notify');
 const spritesmith = require('gulp.spritesmith');
 

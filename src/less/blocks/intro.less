@@ -10,9 +10,13 @@
         .row-flex();
         position: relative;
         padding-top: 65px;
+        .sm-block({
+            padding-top: 0;
+        });
         &__text{
             .col();
             .size(7);
+            .size-xs(12);
             padding: 40px 30px 40px 60px;
             position: relative;
             z-index: 20;
@@ -38,6 +42,9 @@
                     text-align: left;
                     line-height: 10px;
                     padding-bottom: 15px;
+                    .sm-block({
+                        line-height: 100%;
+                    });
                 }
                 .page__text{
                     text-align: left;
@@ -48,6 +55,7 @@
             .page__btn{
                
                 .size(4);
+                .size-sm(12);
                 margin-left: 25px;
                 font-size: 16px;
                 border: 2px solid @color_blue;
@@ -56,6 +64,7 @@
         &__img{
             .col();
             .size(6);
+            .xs(display,none);
             height: 275px;
             overflow: hidden;
             position: absolute;

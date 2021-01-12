@@ -1036,6 +1036,66 @@ a {
   height: 15px;
 }
 
+@media screen and (max-width: 992px) {
+  .banner-block .page__btn {
+    width: 46.9%;
+  }
+
+  .advantages-items__item {
+    width: 46.9%;
+  }
+
+  .intro-block {
+    padding-top: 0;
+  }
+
+  .intro-block__text-content .page__title-h4 {
+    line-height: 100%;
+  }
+
+  .intro-block__text .page__btn {
+    width: 96.9%;
+  }
+
+  .pillars-items__item {
+    width: 46.9%;
+  }
+
+  .info-block {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+
+  .info-block__text .page__title-h2 {
+    text-align: center;
+  }
+
+  .info-block .page__btn {
+    width: 46.9%;
+  }
+
+  .contact-block__form {
+    width: 96.9%;
+  }
+
+  .contact-block__form .page__form .page__btn {
+    width: 96.9%;
+  }
+
+  .contact-block__info {
+    width: 96.9%;
+  }
+
+  .contact-block__info {
+    margin-left: 1.55%;
+  }
+
+  .contact-block__info-container {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .wrapper {
     padding-left: 20px;
@@ -1066,9 +1126,25 @@ a {
     width: -1.66666667%;
   }
 
+  .banner-block {
+    padding: 10% 0;
+  }
+
+  .banner-block .page__text {
+    width: 90%;
+  }
+
   .banner-block .page__btn {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .banner-block .page__btn {
+    width: 90%;
+  }
+
+  .banner-block .page__btn {
+    margin-bottom: 5%;
   }
 
   .banner-block__actions {
@@ -1086,6 +1162,10 @@ a {
     margin-right: 5px;
   }
 
+  .advantages-items__item {
+    width: 90%;
+  }
+
   .intro-block {
     margin-left: -5px;
     margin-right: -5px;
@@ -1096,9 +1176,17 @@ a {
     margin-right: 5px;
   }
 
+  .intro-block__text {
+    width: 90%;
+  }
+
   .intro-block__img {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .intro-block__img {
+    display: none;
   }
 
   .pillars-items {
@@ -1109,6 +1197,14 @@ a {
   .pillars-items__item {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .pillars-items__item {
+    width: 90%;
+  }
+
+  .testimonial-block-items__item .page__text {
+    width: 90%;
   }
 
   .info-block {
@@ -1124,6 +1220,10 @@ a {
   .info-block .page__btn {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .info-block .page__btn {
+    width: 90%;
   }
 
   .contact-block {
